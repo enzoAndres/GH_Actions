@@ -18,9 +18,6 @@ jobs:
     - name: Node version
       run: node --version
     
-    - name: Instalacion dependencias
-      run: npm install
-    
     - name: PHP
       uses: shivammathur/setup-php@v2
       with:
